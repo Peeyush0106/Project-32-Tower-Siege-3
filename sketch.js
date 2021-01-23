@@ -214,7 +214,9 @@ function draw() {
     }
     // Instructions
     fill("red");
-    text('Press "R" key to restart your game', 600, 550);
+    text('Press "R" key to restart your game', 660, 550);
+    text("Your game's background changes according", 220, 550);
+    text("to the time of the day you are playing in", 220, 570);
     pop();
 }
 //When the mouse is dragged over the object, the catapult strings should stretch
